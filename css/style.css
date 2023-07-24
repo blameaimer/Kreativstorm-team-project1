@@ -99,3 +99,50 @@ footer {
 .banner li:not(a) {
   color: grey;
 }
+
+/* Services page Start  */
+.services-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.services-about .container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  align-items: center;
+  grid-gap: 20px;
+  padding: 0 20px;
+}
+.services-about span.blue {
+  display: inline-block;
+  color: var(--blue-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.services-about h2 {
+  color: var(--dark-blue-color);
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+.services-about h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.services-about h3 i {
+  color: var(--blue-color);
+}
+.services-about p {
+  color: #737b9a;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.services-about .image img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .services-about .container {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+}
+/* Services page end  */
