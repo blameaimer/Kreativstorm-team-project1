@@ -1,0 +1,42 @@
+:root {
+  --dark-blue-color: #1f2937;
+  --blue-color: #3882f6;
+  --light-white-color: #f9faf8;
+  --grey-color: #e5e7eb;
+}
+
+header {
+  padding: 20px;
+  background-color: var(--dark-blue-color);
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: var(--light-white-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--dark-blue-color);
+  color: white;
+}
