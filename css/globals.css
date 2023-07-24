@@ -27,6 +27,10 @@ ul li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Media Queries  */
 
 /* Small  */
