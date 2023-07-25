@@ -40,3 +40,22 @@ footer {
   background-color: var(--dark-blue-color);
   color: white;
 }
+
+/*About Us Page */
+
+.headabout {
+ font-family: "Roboto", sans-serif;
+ font-size: 48px;
+ font-weight: bolder;
+ color: #F9fAF8;
+ background-color: #1f2937;
+ text-decoration: underline;
+ 
+
+}
+.about1 {
+
+}
+.subhead-about {
+
+}
