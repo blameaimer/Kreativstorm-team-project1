@@ -338,3 +338,76 @@ span.blue {
   }
 }
 /* Services page end  */
+/*About Us Page */
+
+.head-about {
+ font-family: "Roboto", sans-serif;
+ font-size: 48px;
+ font-weight: bolder;
+ color: #1f2937;
+ padding: 35px;
+ text-align: center;
+ 
+
+}
+.listing1 {
+  background-image: url(../images-about/image5.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.listing1 li {
+  font-style: italic;
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  padding: 30px;
+  color: rgb(68, 133, 179);
+}
+.about1 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  padding: 35px;
+  line-height: 200%;
+  text-align: center;
+  background-color: #e5e7eb;
+
+}
+i.fa-solid {
+  color: green;
+  font-size: 36px;
+}
+.subhead-about {
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: "Roboto", sans-serif;
+  color:#1F2937;
+  padding: 30px;
+  text-align: center;
+ 
+}
+.animation1 {
+  display: flex;
+  justify-content: stretch;
+  height: 50vh;
+  
+}
+
+div.award-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  
+
+
+}
+.award1 .award-desc {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+  
+  
+
+
