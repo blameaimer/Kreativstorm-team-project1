@@ -43,6 +43,10 @@
   width: 50%;
 }
 
+.map-section img {
+  width: 100%;
+}
+
 .form-header {
   display: flex;
   flex-direction: column;
