@@ -53,6 +53,12 @@ footer {
  
 
 }
+.listing1 {
+  background-image: url(../images-about/image5.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 .listing1 li {
   font-style: italic;
   font-size: 36px;
@@ -65,6 +71,8 @@ footer {
   font-family: "Roboto", sans-serif;
   padding: 35px;
   line-height: 200%;
+  text-align: center;
+  background-color: #e5e7eb;
 
 }
 i.fa-solid {
@@ -78,9 +86,15 @@ i.fa-solid {
   color:#1F2937;
   padding: 30px;
   text-align: center;
-
-
+ 
 }
+.animation1 {
+  display: flex;
+  justify-content: stretch;
+  height: 50vh;
+  
+}
+
 div.award-container {
   display: flex;
   flex-direction: row;
@@ -91,9 +105,10 @@ div.award-container {
 
 
 }
-div.award-desc {
-  font-size: 40px;
+.award1 .award-desc {
+  font-size: 20px;
   text-align: center;
+  font-family: "Roboto", sans-serif;
 }
   
   
