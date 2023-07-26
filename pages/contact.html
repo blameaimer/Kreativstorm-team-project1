@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/all.min.css" />
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="style-contact.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
   </head>
   <body>
     <header>
@@ -46,42 +46,82 @@
           <li>Contact</li>
         </ul>
       </div>
-      <section>
-        <h1>Contact</h1>
-        <div>
+      <section class="contact-box-container">
+        <div class="contact-box">
           <h3>Phone</h3>
+          <p>+123 456 7890</p>
         </div>
-        <div>
+        <div class="contact-box">
           <h3>Email</h3>
+          <p>contact@agency.com</p>
         </div>
-        <div>
+        <div class="contact-box">
           <h3>Location</h3>
+          <p>2750 Quadra Street Victoria Road, New York, Canada</p>
         </div>
       </section>
-      <section>
-        <div>
-          <h5>Contact Us</h5>
-          <p>Do you have any questions?</p>
-          <p>
+      <section class="contact-form-container">
+        <div class="form-header">
+          <h5 class="contact-us-header contact-us">CONTACT US</h5>
+          <h2 class="contact-us-header any-questions">
+            Do you have any questions?
+          </h2>
+          <p class="contact-us-header paragraph">
             Hit us in any convenient way: give us a call, shoot us an email or
             fill in the form.
           </p>
         </div>
-        <form>
-          <div>
-            <input type="text" name="name" placeholder="Name" />
+        <div class="image-and-form">
+          <div class="image">
+            <img src="../images/contact-1-1.png" alt="" width="350px" />
           </div>
-          <div>
-            <input type="text" name="email" placeholder="Email" />
+          <div class="contact-us-container">
+            <div class="form-inputs">
+              <div class="form-input">
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                />
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-input">
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="phone"
+                  placeholder="Phone"
+                />
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                />
+              </div>
+            </div>
+            <div class="form-message">
+              <textarea name="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="form-button">
+              <h5>
+                <input type="checkbox" /> By checking this, you agree to our
+                <a href="">Terms</a> and <a href="">Privacy policy</a>.
+              </h5>
+              <div class="form-submit">
+                <button class="submit-button" type="submit">
+                  Send Message
+                </button>
+              </div>
+            </div>
           </div>
-          <div>
-            <input type="text" name="phone" placeholder="Phone" />
-          </div>
-          <div>
-            <input type="text" name="message" placeholder="Your message" />
-          </div>
-          <button type="submit">Send Message</button>
-        </form>
+        </div>
       </section>
     </main>
     <footer>
