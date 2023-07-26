@@ -49,6 +49,7 @@ footer {
  font-weight: bolder;
  color: #1f2937;
  padding: 35px;
+ text-align: center;
  
 
 }
@@ -57,11 +58,13 @@ footer {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   padding: 30px;
+  color: rgb(68, 133, 179);
 }
 .about1 {
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   padding: 35px;
+  line-height: 200%;
 
 }
 i.fa-solid {
@@ -74,6 +77,25 @@ i.fa-solid {
   font-family: "Roboto", sans-serif;
   color:#1F2937;
   padding: 30px;
+  text-align: center;
 
 
 }
+div.award-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  
+
+
+}
+div.award-desc {
+  font-size: 40px;
+  text-align: center;
+}
+  
+  
+
+
