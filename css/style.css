@@ -83,54 +83,65 @@ footer {
 
 /*About Us Page */
 
-.head-about {
- font-family: "Roboto", sans-serif;
- font-size: 48px;
- font-weight: bolder;
- color: #1f2937;
- padding: 35px;
- text-align: center;
-
-} 
-.listing1 {
-  background-image: url(../images/image5.jpeg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.about-box {
+  padding-left: 150px;
+  padding-right: 150px;
+  
 }
-.listing1 li {
+.about-box .container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+
+}
+
+.about-box .listing1 li {
   font-style: italic;
-  font-size: 36px;
+  font-size: 28px;
   font-family: "Roboto", sans-serif;
-  padding: 30px;
+  text-align: left;
   color: rgb(68, 133, 179);
+  padding-top: 20px;
+  padding-right: 20px;
 }
 .about1 {
-  font-size: 36px;
+  font-size: 28px;
   font-family: "Roboto", sans-serif;
-  padding: 35px;
+  padding: 30px 0px 30px;
   line-height: 200%;
   text-align: center;
-  background-color: #e5e7eb;
+  color: var(--dark-blue-color);
+  
+  
 
 }
 i.fa-solid {
   color: green;
-  font-size: 36px;
+  font-size: 28px;
 }
-.subhead-about {
-  font-size: 40px;
-  font-weight: bolder;
+.about1 .subhead-about {
+  font-size: 36px;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
-  color:#1F2937;
-  padding: 30px;
+  color: var(--blue-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
+  text-transform: uppercase;
  
 }
-.animation1 {
+
+.about-box .animation1 {
   display: flex;
-  justify-content: stretch;
-  height: 50vh;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  
+  
+}
+.animation1 img {
+  width: 50%;
   
 }
 
