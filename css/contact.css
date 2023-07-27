@@ -1,29 +1,74 @@
+.banner {
+  height: 400px;
+}
+
 .contact-box-container {
-  background-color: rgb(229, 232, 234);
+  background-color: rgb(245, 246, 247);
 }
 .contact-box-container {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .contact-box {
   border-radius: 8px;
   padding: 38px;
   background: white;
-  border-radius: 8px;
+  border-radius: 5px;
   margin: 10px;
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box:hover {
+  transform: translateY(-13px);
+  transition: 0.4s;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+
+.contact-box:not(:hover) {
+  transition: 0.4s;
+}
+
+.contact-box p:hover {
+  color: #3882f6;
+  transition: 0.3s;
+}
+
+.contact-box i {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box h3 {
+  /* padding-left: 30%;
+  padding-top: 10px;
+  padding-bottom: 20px; */
+  display: flex;
+  justify-content: center;
+}
+
+.contact-box p {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: rgb(139, 139, 140);
 }
 
 .contact-form-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: rgb(249, 255, 255); */
   background-image: url("https://themes.hibootstrap.com/varn/wp-content/uploads/2020/01/right-shape-image-1-1.png");
   background-position: center right;
   background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .image {
@@ -71,6 +116,15 @@
   padding: 1px 20px 1px 20px;
   justify-content: space-between;
   margin: 5px;
+}
+
+textarea {
+  padding: 10px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: rgb(179, 175, 175);
 }
 
 .form-button {
@@ -173,17 +227,36 @@ textarea {
   color: #e9e6e6;
 }
 
-a:hover {
-  color: rgb(194, 97, 82);
+main a:hover,
+footer a:hover {
+  color: #3882f6;
   transition: 0.3;
 }
 
-footer {
+.footer-big {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--dark-blue-color);
   color: white;
+}
+
+.footer-big-and-small {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-small {
+  display: flex;
+  margin: 40px;
+  width: 95%;
+  border-top: 1px solid #888;
+}
+
+.footer-small p {
+  display: flex;
+  padding-left: 0px;
+  margin-top: 20px;
 }
 
 .footers {
@@ -221,7 +294,8 @@ footer {
 }
 
 .footers h3 {
-  margin-left: 25px;
+  margin-left: 28px;
+  font-size: x-large;
 }
 
 .social-network-icons {
@@ -235,7 +309,7 @@ footer {
 
 .footer-22 a {
   color: #eeeeee;
-  margin: 25px;
+  margin: 20px;
 }
 
 .footer-23 {
