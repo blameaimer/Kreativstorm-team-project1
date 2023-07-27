@@ -134,12 +134,7 @@ input::placeholder {
   margin-left: 26px;
 }
 
-.form-submit {
-  display: flex;
-}
-
 .submit-button {
-  display: flex;
   background-color: #3882f6;
   border: none;
   border-radius: 5px;
@@ -153,11 +148,6 @@ input::placeholder {
 
 .submit-button:hover {
   background-color: rgb(194, 112, 82);
-}
-
-.send {
-  display: flex;
-  padding: 17px;
 }
 
 .image-and-form {
@@ -339,4 +329,44 @@ footer a:hover {
   margin: 1px;
   padding: 1px;
   justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .image-and-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-box-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-big {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    width: 100%;
+  }
+  .contact-us-header {
+    text-align: center;
+  }
+  .contact-us-container {
+    width: 100%;
+  }
+  .submit-button {
+    width: 45%;
+  }
+  .contact-box {
+    justify-content: center;
+  }
+
+  .checking {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
