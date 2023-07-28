@@ -1107,7 +1107,8 @@ label {
   background-color: var(--dark-blue-color);
 }
 .home-hero button,
-.home-signup button {
+.home-signup button,
+.home-aboutus button {
   outline: 0;
   border: 0;
   padding: 10px 20px;
@@ -1289,6 +1290,36 @@ label {
   margin-left: -50px;
 }
 
+.home-aboutus {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+}
+.home-aboutus .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+.home-aboutus .text {
+  width: 50%;
+}
+.home-aboutus h3 {
+  padding-bottom: 15px;
+  font-size: 36px;
+}
+.home-aboutus p {
+  color: var(--dark-blue-color);
+  font-weight: 100;
+}
+
+.home-aboutus button {
+  margin-top: 25px;
+}
+
+.home-aboutus .image img {
+  max-width: 500px;
+}
 .home-signup {
   background-color: var(--blue-color);
   color: var(--light-white-color);
