@@ -46,9 +46,6 @@
 }
 
 .contact-box h3 {
-  /* padding-left: 30%;
-  padding-top: 10px;
-  padding-bottom: 20px; */
   display: flex;
   justify-content: center;
 }
@@ -364,9 +361,12 @@ footer a:hover {
   .contact-box {
     justify-content: center;
   }
-
   .checking {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  .map-section img {
+    height: 16rem;
+    object-fit: cover;
   }
 }
