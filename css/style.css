@@ -1104,7 +1104,14 @@ label {
 /* Home page start  */
 .home-hero {
   padding-bottom: 100px;
+  padding-top: 100px;
   background-color: var(--dark-blue-color);
+}
+.home-hero .container div {
+  flex: 1;
+}
+.home-hero button {
+  font-size: 20px;
 }
 .home-hero button,
 .home-signup button,
@@ -1112,21 +1119,22 @@ label {
   outline: 0;
   border: 0;
   padding: 10px 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   background: var(--blue-color);
   color: white;
 }
 .home-hero .container {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .home-hero .image img {
   width: 100%;
   max-width: 572px;
 }
 .home-hero .text {
-  max-width: 36%;
-  margin-right: 50px;
+  max-width: 100%;
+  padding: 20px;
 }
 .home-hero h1 {
   color: var(--light-white-color);
@@ -1145,11 +1153,12 @@ label {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-.home-info .container {
+.home-info .container .services-container {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 30px;
 }
 .home-info img {
   max-width: 150px;
@@ -1255,7 +1264,7 @@ label {
   display: flex;
   color: var(--dark-blue-color);
   margin-bottom: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   align-items: center;
   justify-content: center;
   font-size: 36px;
@@ -1271,7 +1280,6 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 350px;
 }
 .quote {
   font-size: 36px;
@@ -1279,7 +1287,16 @@ label {
   font-weight: 100;
   color: var(--dark-blue-color);
   text-align: left;
-  width: 60%;
+  width: 65%;
+  position: relative;
+}
+p.quote:after {
+  content: "-Thor";
+  position: absolute;
+  bottom: -18px;
+  right: 37px;
+  font-size: 25px;
+  font-weight: 600;
 }
 .sign {
   text-align: right;
@@ -1307,31 +1324,37 @@ label {
 .home-aboutus h3 {
   padding-bottom: 15px;
   font-size: 36px;
+  color: var(--dark-blue-color);
 }
 .home-aboutus p {
-  color: var(--dark-blue-color);
+  color: var(--p-color);
   font-weight: 100;
+  line-height: 26px;
+  font-size: 18px;
+  line-height: 26px;
 }
 
 .home-aboutus button {
   margin-top: 25px;
+  font-size: 19px;
 }
 
 .home-aboutus .image img {
   max-width: 500px;
+  width: 100%;
 }
 .home-signup {
   background-color: var(--blue-color);
   color: var(--light-white-color);
-  border-radius: 5px;
 }
 .home-signup .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
+  gap: 20px;
 }
 .home-signup button {
   outline: 2px solid white;
@@ -1339,10 +1362,40 @@ label {
   border-radius: 10px;
   background: var(--blue-color);
   color: white;
-  margin-left: 50px;
+  font-size: 29px;
+  padding: 10px 45px;
 }
 .home-signup h4 {
-  font-size: 25px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.home-signup p {
+  font-size: 20px;
+}
+.home-signup .text {
+  text-align: left;
 }
 
+@media (max-width: 991px) {
+  .home-hero .container {
+    flex-direction: column-reverse;
+  }
+  .home-info .services-container {
+    flex-direction: column;
+  }
+  .home-aboutus .container {
+    flex-direction: column-reverse;
+  }
+  .home-aboutus .text {
+    width: 100%;
+  }
+}
+@media (max-width: 776px) {
+  .home-signup .container {
+    flex-direction: column;
+  }
+  .home-signup .text {
+    text-align: center;
+  }
+}
 /* Home page end  */
