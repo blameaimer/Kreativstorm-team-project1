@@ -1089,3 +1089,130 @@ label {
   }
 }
 /* footer end  */
+
+/* Home page start  */
+.home-hero {
+  padding-bottom: 100px;
+  background-color: var(--dark-blue-color);
+}
+.home-hero button,
+.home-signup button {
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: var(--blue-color);
+  color: white;
+}
+.home-hero .container {
+  display: flex;
+  align-items: center;
+}
+.home-hero .image img {
+  width: 100%;
+  max-width: 572px;
+}
+.home-hero .text {
+  max-width: 36%;
+  margin-right: 50px;
+}
+.home-hero h1 {
+  color: var(--light-white-color);
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 800;
+}
+.home-hero p {
+  color: var(--grey-color);
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.home-info {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.home-info .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.home-info img {
+  max-width: 150px;
+  border: 3px solid var(--blue-color);
+  border-radius: 15px;
+}
+.home-info figure {
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.home-info h3 {
+  display: flex;
+  color: var(--dark-blue-color);
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.home-quote {
+  background-color: var(--grey-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.home-quote .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+}
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: var(--dark-blue-color);
+  text-align: left;
+  width: 60%;
+}
+.sign {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--dark-blue-color);
+  margin-top: 200px;
+  margin-left: -50px;
+}
+
+.home-signup {
+  background-color: var(--blue-color);
+  color: var(--light-white-color);
+  border-radius: 5px;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+.home-signup .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.home-signup button {
+  outline: 2px solid white;
+  outline-offset: -5px;
+  border-radius: 10px;
+  background: var(--blue-color);
+  color: white;
+  margin-left: 50px;
+}
+.home-signup .text {
+  margin-left: -300px;
+}
+/* Home page end  */
