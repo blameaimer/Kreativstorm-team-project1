@@ -1159,6 +1159,96 @@ label {
   margin-top: 25px;
   margin-left: 25px;
 }
+.home-info h2 {
+  color: var(--dark-blue-color);
+  margin-bottom: 10px;
+  font-size: 38px;
+}
+
+.home-info .service p {
+  color: var(--p-color);
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.home-info {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f4f7fc;
+  text-align: center;
+}
+
+.home-info h2 {
+  margin-bottom: 60px;
+}
+
+.home-info .features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.home-info .service {
+  padding: 38px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  transition: 0.5s ease;
+  position: relative;
+}
+.home-info .service .filter {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  background-color: var(--blue-color);
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  z-index: -1;
+}
+.home-info .service i.icon {
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  font-size: 27px;
+}
+.home-info .service:nth-child(1n) i.icon {
+  background: #fef0f0;
+  color: #fa7070;
+}
+.home-info .service:nth-child(2n) i.icon {
+  background: #ccefff;
+  color: #00aeff;
+}
+.home-info .service:nth-child(3n) i.icon {
+  background: #fde8f5;
+  color: #f78acb;
+}
+.home-info .service h3 {
+  font-size: 23px;
+  color: var(--dark-blue-color);
+  margin-bottom: 10px;
+}
+.home-info .service a {
+  color: white;
+  opacity: 0;
+  transition: 0.5s ease-in;
+  margin-left: 0;
+}
+.home-info .service:hover {
+  /* background: var(--blue-color); */
+  transform: translateY(-8px);
+}
+.home-info .service:hover * {
+  color: white;
+}
+.home-info .service:hover .filter {
+  width: 100%;
+}
+.home-info .service:hover a {
+  opacity: 1;
+  margin-left: 10px;
+}
 
 .home-info h3 {
   display: flex;
@@ -1203,17 +1293,14 @@ label {
   background-color: var(--blue-color);
   color: var(--light-white-color);
   border-radius: 5px;
-  margin-right: 25%;
-  margin-left: 25%;
 }
 .home-signup .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 .home-signup button {
   outline: 2px solid white;
@@ -1223,7 +1310,8 @@ label {
   color: white;
   margin-left: 50px;
 }
-.home-signup .text {
-  margin-left: -300px;
+.home-signup h4 {
+  font-size: 25px;
 }
+
 /* Home page end  */
