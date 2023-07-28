@@ -933,9 +933,9 @@ label {
 }
 
 @media (min-width: 768px) {
-  /* .container {
+  .container {
     max-width: 720px;
-  } */
+  }
   .blog-area .news-feed {
     flex: 0 0 100%;
     max-width: 100%;
