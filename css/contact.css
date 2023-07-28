@@ -365,8 +365,7 @@ footer a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .map-section img {
-    height: 16rem;
-    object-fit: cover;
+  .map-section iframe {
+    width: 100%;
   }
 }
