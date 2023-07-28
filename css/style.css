@@ -926,7 +926,7 @@ label {
 }
 
 @media (max-width: 576px) {
-  .container {
+  .blog-area .container {
     max-width: 540px;
   }
 }
@@ -935,11 +935,11 @@ label {
   /* .container {
     max-width: 720px;
   } */
-  .news-feed {
+  .blog-area .news-feed {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .aside-features {
+  .blog-area .aside-features {
     flex: 0 0 100%;
     max-width: 100%;
   }
