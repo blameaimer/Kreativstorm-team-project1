@@ -994,6 +994,7 @@ label {
   width: 100%;
   padding: 10px;
   margin: 10px;
+  flex: 1;
 }
 
 .social-network img {
@@ -1063,19 +1064,29 @@ label {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  gap: 10px;
 }
 
 .footer-3 img {
-  width: 30%;
-  padding: 1px;
-  margin: 1px;
+  width: 31%;
 }
 
 .gallery-images {
   display: flex;
-  margin: 1px;
-  padding: 1px;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.footer-13 p,
+.footer-13 .social-network-icons a:first-child,
+.footer-13 a {
+  margin-left: 0;
+}
+.footer-32 {
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer-23 {
+  margin-left: 0;
+  padding-left: 0;
 }
 @media (max-width: 992px) {
   .footer-big {
