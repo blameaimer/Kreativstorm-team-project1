@@ -780,6 +780,22 @@ label {
   background-position: center center !important;
 }
 
+.post-1-image {
+  background-image: url('../images/post-1.jpg');
+}
+
+.post-2-image {
+  background-image: url('../images/post-2.jpg');
+}
+
+.post-3-image {
+  background-image: url('../images/post-3.jpg');
+}
+
+.post-4-image {
+  background-image: url('../images/post-4.jpg');
+}
+
 .widget_varn_posts_thumbs .item .info {
   overflow: hidden;
 }
@@ -926,6 +942,8 @@ label {
   color: #fff;
 }
 
+
+
 @media (max-width: 576px) {
   .blog-area .container {
     max-width: 540px;
@@ -1059,6 +1077,11 @@ label {
 
 .social-network-icons {
   margin-top: 25px;
+}
+
+.social-network-icons a i {
+  font-size: 20px; 
+  color: #ffffff
 }
 
 .footer-22 {
