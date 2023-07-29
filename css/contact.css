@@ -216,6 +216,22 @@ footer a:hover {
   transition: 0.3;
 }
 
+.fa-brands {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.fa-solid {
+  font-size: 30px;
+  color: #3882f6;
+}
+
+iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
 @media (max-width: 992px) {
   .image-and-form {
     flex-direction: column;
