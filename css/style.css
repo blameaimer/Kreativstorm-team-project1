@@ -1201,7 +1201,6 @@ label {
 }
 .home-info .container .services-container {
   display: flex;
-  align-items: flex-start;
   justify-content: center;
   text-align: center;
   gap: 14px;
