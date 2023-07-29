@@ -226,6 +226,12 @@ footer a:hover {
   color: #3882f6;
 }
 
+iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
 @media (max-width: 992px) {
   .image-and-form {
     flex-direction: column;
