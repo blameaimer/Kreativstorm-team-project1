@@ -111,7 +111,7 @@ footer {
   color: var(--dark-blue-color);
 }
 i.fa-solid {
-  color: green;
+  /* color: green; */
   font-size: 28px;
 }
 .about1 .subhead-about {
