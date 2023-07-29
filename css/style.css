@@ -217,7 +217,8 @@ div.award-container {
   justify-content: center;
   padding: 0 20px;
 }
-.services-about .container div {
+.services-about .container .text,
+.services-about .container .image {
   flex: 1;
 }
 span.blue {
@@ -1023,17 +1024,15 @@ label {
 .footer-12 {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
   justify-content: space-between;
-  gap: 25px;
+  gap: 15px;
 }
-
-.footer-13 {
-  flex-grow: 1;
+.footer-12 a {
+  color: white;
 }
 
 .footer-13 p {
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .footer-13 a {
@@ -1046,6 +1045,7 @@ label {
   padding-bottom: 15px;
   border-bottom: 1px solid #8080807a;
   position: relative;
+  margin-bottom: 17px;
 }
 .footers h3:after {
   content: "";
@@ -1062,12 +1062,13 @@ label {
 }
 
 .footer-22 {
-  display: flex;
-  margin-top: 10px;
+  columns: 2;
 }
 
 .footer-22 a {
   color: #eeeeee;
+  margin-bottom: 15px;
+  display: block;
 }
 
 .footer-23 {
@@ -1111,6 +1112,9 @@ label {
   .footer-big {
     flex-direction: column;
     align-items: center;
+  }
+  .footer-big .footer-22 {
+    columns: 1;
   }
 }
 @media (max-width: 776px) {
