@@ -497,7 +497,7 @@ span.blue {
 }
 
 .news-item .post-content .post-meta ul li a {
-  color: #3882F6;
+  color: #3882f6;
 }
 
 .news-item .post-content .post-meta ul li::before {
@@ -547,7 +547,7 @@ span.blue {
 }
 
 .news-item .post-content .read-more-btn i {
-  color: #3882F6;
+  color: #3882f6;
   padding-left: 5px;
 }
 
@@ -556,7 +556,7 @@ span.blue {
 }
 
 .news-item .post-content h3 a:hover {
-  color: #3882F6;
+  color: #3882f6;
   text-decoration: none;
 }
 
@@ -566,7 +566,7 @@ span.blue {
 }
 
 .news-item .post-content .read-more-btn {
-  color: #3882F6;
+  color: #3882f6;
   display: flex;
   align-items: center;
   transition: 0.5s;
@@ -585,7 +585,7 @@ span.blue {
 }
 
 .news-item .post-content .read-more-btn::before {
-  background: #3882F6;
+  background: #3882f6;
   content: "";
   position: absolute;
   left: 0;
@@ -631,14 +631,14 @@ span.blue {
 }
 
 .pagination-area .page-numbers:hover {
-  background: #3882F6;
+  background: #3882f6;
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
   box-shadow: 0 2px 10px 0 #d8dde6;
 }
 
 .pagination-area .page-numbers.current {
-  background: #3882F6;
+  background: #3882f6;
   color: #ffffff;
   -webkit-box-shadow: 0 2px 10px 0 #d8dde6;
   box-shadow: 0 2px 10px 0 #d8dde6;
@@ -683,7 +683,7 @@ label {
 }
 
 .sidebar .widget_search form .search-button {
-  background-color: #3882F6;
+  background-color: #3882f6;
   border: none;
   cursor: pointer;
   position: absolute;
@@ -718,7 +718,7 @@ label {
 
 .sidebar .widget_search form .search-button {
   flex: 0 0 50px;
-  background-color: #3882F6;
+  background-color: #3882f6;
   border: none;
   cursor: pointer;
   color: #fff;
@@ -838,7 +838,7 @@ label {
   line-height: 1.8;
   font-size: 15.5px;
   font-weight: 600;
-  color: #3882F6 !important;
+  color: #3882f6 !important;
 }
 
 .sidebar .widget ul li:last-child {
@@ -846,7 +846,7 @@ label {
 }
 
 .sidebar .widget ul li::before {
-  background-color: #3882F6;
+  background-color: #3882f6;
 }
 
 .sidebar .widget ul li::before {
@@ -873,8 +873,7 @@ label {
 }
 
 .sidebar .widget ul li a:hover {
-  color: #3882F6;
-
+  color: #3882f6;
 }
 
 .sidebar .widget .widget-title {
@@ -904,7 +903,7 @@ label {
 }
 
 .sidebar .tagcloud a:first-child {
-  border: 1px solid #3882F6;
+  border: 1px solid #3882f6;
   padding: 8px 14px;
   font-size: 14px !important;
   margin-top: 4px;
@@ -917,12 +916,12 @@ label {
   transition: 0.5s;
   outline: 0 !important;
   color: #fff;
-  background-color: #3882F6;
+  background-color: #3882f6;
 }
 
 .sidebar .tagcloud a:hover {
-  border-color: #3882F6;
-  background-color: #3882F6;
+  border-color: #3882f6;
+  background-color: #3882f6;
   color: #fff;
 }
 
@@ -932,7 +931,7 @@ label {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .container {
     max-width: 720px;
   }
@@ -995,13 +994,21 @@ label {
   margin: 10px 20px;
   border-top: 1px solid #8080807a;
 }
+.homepage .footer-small {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  border: none;
+}
 
 .footer-small p {
   display: flex;
   padding-left: 0px;
   margin-top: 20px;
 }
-
+.homepage .footer-small p {
+  margin: 0;
+}
 .footers {
   width: 100%;
   padding: 10px;
@@ -1167,20 +1174,17 @@ label {
 }
 .home-info .container .services-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   text-align: center;
-  gap: 30px;
+  gap: 14px;
 }
 .home-info img {
   max-width: 150px;
   border: 3px solid var(--blue-color);
   border-radius: 15px;
 }
-.home-info figure {
-  margin-top: 25px;
-  margin-left: 25px;
-}
+
 .home-info h2 {
   color: var(--dark-blue-color);
   margin-bottom: 10px;
@@ -1212,9 +1216,10 @@ label {
 .home-info .service {
   padding: 38px;
   background: white;
-  border-radius: 8px;
+  border-radius: 10px;
   text-align: center;
   transition: 0.5s ease;
+  border: 3px solid var(--blue-color);
   position: relative;
 }
 .home-info .service .filter {
@@ -1302,7 +1307,7 @@ label {
   width: 65%;
   position: relative;
 }
-p.quote:after {
+.quote:after {
   content: "-Thor";
   position: absolute;
   bottom: -18px;
@@ -1356,17 +1361,19 @@ p.quote:after {
   width: 100%;
 }
 .home-signup {
-  background-color: var(--blue-color);
   color: var(--light-white-color);
 }
 .home-signup .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 30px;
   text-align: center;
+  border-radius: 10px;
   gap: 20px;
+  background-color: var(--blue-color);
 }
 .home-signup button {
   outline: 2px solid white;
@@ -1374,15 +1381,15 @@ p.quote:after {
   border-radius: 10px;
   background: var(--blue-color);
   color: white;
-  font-size: 29px;
-  padding: 10px 45px;
+  font-size: 20px;
+  padding: 10px 20px;
 }
 .home-signup h4 {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 .home-signup p {
-  font-size: 20px;
+  font-size: 16px;
 }
 .home-signup .text {
   text-align: left;
@@ -1392,8 +1399,9 @@ p.quote:after {
   .home-hero .container {
     flex-direction: column-reverse;
   }
-  .home-info .services-container {
+  .home-info .container .services-container {
     flex-direction: column;
+    align-items: center;
   }
   .home-aboutus .container {
     flex-direction: column-reverse;
